@@ -1,0 +1,513 @@
+[[package]]
+category = "main"
+description = "Simple DNS resolver for asyncio"
+name = "aiodns"
+optional = false
+platform = "POSIX"
+python-versions = "*"
+version = "1.1.1"
+
+[package.dependencies]
+pycares = ">=1.0.0"
+
+[package.dependencies.asyncio]
+python = ">=3.3,<3.4"
+version = "*"
+
+[package.dependencies.trollius]
+python = "<=3.2"
+version = "*"
+
+[[package]]
+category = "main"
+description = "Async http client/server framework (asyncio)"
+name = "aiohttp"
+optional = false
+platform = "*"
+python-versions = ">=3.5.3"
+version = "3.3.2"
+
+[package.dependencies]
+async-timeout = ">=3.0,<4.0"
+attrs = ">=17.3.0"
+chardet = ">=2.0,<4.0"
+idna-ssl = ">=1.0"
+multidict = ">=4.0,<5.0"
+yarl = ">=1.0,<2.0"
+
+[[package]]
+category = "dev"
+description = "apipkg: namespace control and lazy-import mechanism"
+name = "apipkg"
+optional = false
+platform = "unix"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.5"
+
+[[package]]
+category = "dev"
+description = "Async generators and context managers for Python 3.5+"
+name = "async-generator"
+optional = false
+platform = "*"
+python-versions = ">=3.5"
+version = "1.10"
+
+[package.requirements]
+python = ">=3.5,<3.6"
+
+[[package]]
+category = "main"
+description = "Timeout context manager for asyncio programs"
+name = "async-timeout"
+optional = false
+platform = "*"
+python-versions = ">=3.5.3"
+version = "3.0.0"
+
+[[package]]
+category = "main"
+description = "reference implementation of PEP 3156"
+name = "asyncio"
+optional = false
+platform = "Wherever Python runs"
+python-versions = "*"
+version = "3.4.3"
+
+[package.requirements]
+python = ">=3.3,<3.4"
+
+[[package]]
+category = "dev"
+description = "Atomic file writes."
+name = "atomicwrites"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.1.5"
+
+[[package]]
+category = "main"
+description = "Classes Without Boilerplate"
+name = "attrs"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "18.1.0"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "dev"
+description = "Cross-platform colored terminal text."
+name = "colorama"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "0.3.9"
+
+[package.requirements]
+platform = "win32"
+
+[[package]]
+category = "dev"
+description = "execnet: rapid multi-Python deployment"
+name = "execnet"
+optional = false
+platform = "unix"
+python-versions = "*"
+version = "1.5.0"
+
+[package.dependencies]
+apipkg = ">=1.4"
+
+[[package]]
+category = "dev"
+description = "Python function signatures from PEP362 for Python 2.6, 2.7 and 3.2+"
+name = "funcsigs"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.0.2"
+
+[package.dependencies]
+[package.dependencies.ordereddict]
+python = "<2.7"
+version = "*"
+
+[package.requirements]
+python = "<3.0"
+
+[[package]]
+category = "main"
+description = "Backport of the concurrent.futures package from Python 3"
+name = "futures"
+optional = false
+platform = "*"
+python-versions = ">=2.6, <3"
+version = "3.2.0"
+
+[package.requirements]
+python = "<=3.2"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "2.7"
+
+[[package]]
+category = "main"
+description = "Patch ssl.match_hostname for Unicode(idna) domains support"
+name = "idna-ssl"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.1.0"
+
+[package.dependencies]
+idna = ">=2.0"
+
+[[package]]
+category = "main"
+description = "Reader for the MaxMind DB format"
+name = "maxminddb"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.4.1"
+
+[[package]]
+category = "dev"
+description = "Rolling backport of unittest.mock for all Pythons"
+name = "mock"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "2.0.0"
+
+[package.dependencies]
+pbr = ">=0.11"
+six = ">=1.9"
+
+[package.dependencies.funcsigs]
+python = "<3.3"
+version = ">=1"
+
+[package.requirements]
+python = "<3.0"
+
+[[package]]
+category = "dev"
+description = "More routines for operating on iterables, beyond itertools"
+name = "more-itertools"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "4.3.0"
+
+[package.dependencies]
+six = ">=1.0.0,<2.0.0"
+
+[[package]]
+category = "main"
+description = "multidict implementation"
+name = "multidict"
+optional = false
+platform = "*"
+python-versions = ">=3.4.1"
+version = "4.3.1"
+
+[[package]]
+category = "dev"
+description = "A drop-in substitute for Py2.7's new collections.OrderedDict that works in Python 2.4-2.6."
+name = "ordereddict"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.1"
+
+[package.requirements]
+python = "<2.7"
+
+[[package]]
+category = "dev"
+description = "Object-oriented filesystem paths"
+name = "pathlib2"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "2.3.2"
+
+[package.dependencies]
+six = "*"
+
+[package.dependencies.scandir]
+python = "<3.5"
+version = "*"
+
+[package.requirements]
+python = "<3.6"
+
+[[package]]
+category = "dev"
+description = "Python Build Reasonableness"
+name = "pbr"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "4.2.0"
+
+[package.requirements]
+python = "<3.0"
+
+[[package]]
+category = "dev"
+description = "Python style guide checker"
+name = "pep8"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.7.1"
+
+[[package]]
+category = "dev"
+description = "plugin and hook calling mechanisms for python"
+name = "pluggy"
+optional = false
+platform = "unix"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.7.1"
+
+[[package]]
+category = "dev"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+name = "py"
+optional = false
+platform = "unix"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.5.4"
+
+[[package]]
+category = "main"
+description = "Python interface for c-ares"
+name = "pycares"
+optional = false
+platform = "POSIX"
+python-versions = "*"
+version = "2.3.0"
+
+[[package]]
+category = "dev"
+description = "passive checker of Python programs"
+name = "pyflakes"
+optional = false
+platform = "*"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.0.0"
+
+[[package]]
+category = "dev"
+description = "pytest: simple powerful testing with Python"
+name = "pytest"
+optional = false
+platform = "unix"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.7.1"
+
+[package.dependencies]
+atomicwrites = ">=1.0"
+attrs = ">=17.4.0"
+more-itertools = ">=4.0.0"
+pluggy = ">=0.7"
+py = ">=1.5.0"
+setuptools = "*"
+six = ">=1.10.0"
+
+[package.dependencies.colorama]
+platform = "win32"
+version = "*"
+
+[package.dependencies.funcsigs]
+python = "<3.0"
+version = "*"
+
+[package.dependencies.pathlib2]
+python = "<3.6"
+version = ">=2.2.0"
+
+[[package]]
+category = "dev"
+description = "Pytest support for asyncio."
+name = "pytest-asyncio"
+optional = false
+platform = "*"
+python-versions = ">= 3.5"
+version = "0.9.0"
+
+[package.dependencies]
+pytest = ">=3.0.6"
+
+[package.dependencies.async-generator]
+python = ">=3.5,<3.6"
+version = ">=1.3"
+
+[[package]]
+category = "dev"
+description = "pytest plugin with mechanisms for caching across test runs"
+name = "pytest-cache"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.0"
+
+[package.dependencies]
+execnet = ">=1.1.dev1"
+pytest = ">=2.2"
+
+[[package]]
+category = "dev"
+description = "pytest plugin to check source code with pyflakes"
+name = "pytest-flakes"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "4.0.0"
+
+[package.dependencies]
+pyflakes = "*"
+pytest = ">=2.8.0"
+
+[[package]]
+category = "dev"
+description = "Thin-wrapper around the mock package for easier use with py.test"
+name = "pytest-mock"
+optional = false
+platform = "any"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.10.0"
+
+[package.dependencies]
+pytest = ">=2.7"
+
+[package.dependencies.mock]
+python = "<3.0"
+version = "*"
+
+[[package]]
+category = "dev"
+description = "pytest plugin to check PEP8 requirements"
+name = "pytest-pep8"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.0.6"
+
+[package.dependencies]
+pep8 = ">=1.3"
+pytest = ">=2.4.2"
+pytest-cache = "*"
+
+[[package]]
+category = "dev"
+description = "scandir, a better directory iterator and faster os.walk()"
+name = "scandir"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.8"
+
+[package.requirements]
+python = "<3.5"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.11.0"
+
+[[package]]
+category = "main"
+description = "Port of the Tulip project (asyncio module, PEP 3156) on Python 2"
+name = "trollius"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "2.2"
+
+[package.dependencies]
+futures = "*"
+six = "*"
+
+[package.requirements]
+python = "<=3.2"
+
+[[package]]
+category = "main"
+description = "Yet another URL library"
+name = "yarl"
+optional = false
+platform = "*"
+python-versions = ">=3.5.3"
+version = "1.2.6"
+
+[package.dependencies]
+idna = ">=2.0"
+multidict = ">=4.0"
+
+[metadata]
+content-hash = "9601ed4bc56f7546cacdbc2194222c6f34beababfab755616b2dd56150c28e02"
+platform = "*"
+python-versions = "*"
+
+[metadata.hashes]
+aiodns = ["99d0652f2c02f73bfa646bf44af82705260a523014576647d7959e664830b26b", "d8677adc679ce8d0ef706c14d9c3d2f27a0e0cc11d59730cdbaf218ad52dd9ea"]
+aiohttp = ["1a112a1fdf3802b7f2b182e22e51d71e4a8fa7387d0d38e79a268921b869e384", "33aa7c937ebaf063a860cbb0c263a771b33333a84965c6148eeafe64fb4e29ca", "550b4a0788500f6d00f41b7fdd9fcce6d78f99706a7b2f6f81d4d331c7ca468e", "601e8e83123b4d423a9dfddf7d6943f4f520651a78ffcd50c99d065136c7ff7b", "620f19ba7628b70b177f5c2e6a55a6fd6e7c8591cde38c3f8f52551733d31b66", "70d56c784da1239c89d39fefa166fd429306dada641178389be4184a9c04e501", "7de2c9e445a5d257935011268202338538abef1aaff341a4733eca56419ca6f6", "96bb80b659cc2bafa160f3f0c346ce7fc10de1ffec4908d7f9690797f155f658", "ae7501cc6a6c37b8d4774bf2218c37be47fe42019a2570e8510fc2044e59d573", "c833aa6f4c9ac3e3eb843e3d999bae51339ad33a937303f43ce78064e61cb4b6", "dd81d85a342edf3d2a388e2f24d9facebc9c04550043888f970ee2f228c93059", "f20deec7a3fbaec7b5eb7ad99878427ad2ee4cc16a46732b705e8121cbb3cc12", "f52e7287eb9286a1e91e4c67c207c2573147fbaddc68f70efb5aeee5d1992f2e", "fe7b2972ff7e779e812f974aa5695edc328ecf559ceeea887ac46f06f090ad4c", "ff1447c84a02b9cd5dd3a9332d1fb181a4386c3625765bb5caf1cfbc210ab3f9"]
+apipkg = ["37228cda29411948b422fae072f57e31d3396d2ee1c9783775980ee9c9990af6", "58587dd4dc3daefad0487f6d9ae32b4542b185e1c36db6993290e7c41ca2b47c"]
+async-generator = ["01c7bf666359b4967d2cda0000cc2e4af16a0ae098cbffcb8472fb9e8ad6585b", "6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"]
+async-timeout = ["474d4bc64cee20603e225eb1ece15e248962958b45a3648a9f5cc29e827a610c", "b3c0ddc416736619bd4a95ca31de8da6920c3b9a140c64dbef2b2fa7bf521287"]
+asyncio = ["83360ff8bc97980e4ff25c964c7bd3923d333d177aa4f7fb736b019f26c7cb41", "b62c9157d36187eca799c378e572c969f0da87cd5fc42ca372d92cdb06e7e1de", "c46a87b48213d7464f22d9a497b9eef8c1928b68320a2fa94240f969f6fec08c", "c4d18b22701821de07bd6aea8b53d21449ec0ec5680645e5317062ea21817d2d"]
+atomicwrites = ["240831ea22da9ab882b551b31d4225591e5e447a68c5e188db5b89ca1d487585", "a24da68318b08ac9c9c45029f4a10371ab5b20e4226738e150e6e7c571630ae6"]
+attrs = ["4b90b09eeeb9b88c35bc642cbac057e45a5fd85367b985bd2809c62b7b939265", "e0d0eb91441a3b53dab4d9b743eafc1ac44476296a2053b6ca3af0b139faf87b"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+colorama = ["463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda", "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1"]
+execnet = ["a7a84d5fa07a089186a329528f127c9d73b9de57f1a1131b82bb5320ee651f6a", "fc155a6b553c66c838d1a22dba1dc9f5f505c43285a878c6f74a79c024750b83"]
+funcsigs = ["330cc27ccbf7f1e992e69fef78261dc7c6569012cf397db8d3de0234e6c937ca", "a7bb0f2cf3a3fd1ab2732cb49eba4252c2af4240442415b4abce3b87022a8f50"]
+futures = ["9ec02aa7d674acb8618afb127e27fde7fc68994c0437ad759fa094a574adb265", "ec0a6cb848cc212002b9828c3e34c675e0c9ff6741dc445cab6fdd4e1085d1f1"]
+idna = ["156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e", "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"]
+idna-ssl = ["a933e3bb13da54383f9e8f35dc4f9cb9eb9b3b78c6b36f311254d6d0d92c6c7c"]
+maxminddb = ["df1451bcd848199905ac0de4631b3d02d6a655ad28ba5e5a4ca29a23358db712"]
+mock = ["5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1", "b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba"]
+more-itertools = ["c187a73da93e7a8acc0001572aebc7e3c69daf7bf6881a2cea10650bd4420092", "c476b5d3a34e12d40130bc2f935028b5f636df8f372dc2c1c01dc19681b2039e", "fcbfeaea0be121980e15bc97b3817b5202ca73d0eae185b4550cbfce2a3ebb3d"]
+multidict = ["1a1d76374a1e7fe93acef96b354a03c1d7f83e7512e225a527d283da0d7ba5e0", "1d6e191965505652f194bc4c40270a842922685918a4f45e6936a6b15cc5816d", "295961a6a88f1199e19968e15d9b42f3a191c89ec13034dbc212bf9c394c3c82", "2be5af084de6c3b8e20d6421cb0346378a9c867dcf7c86030d6b0b550f9888e4", "2eb99617c7a0e9f2b90b64bc1fb742611718618572747d6f3d6532b7b78755ab", "4ba654c6b5ad1ae4a4d792abeb695b29ce981bb0f157a41d0fd227b385f2bef0", "5ba766433c30d703f6b2c17eb0b6826c6f898e5f58d89373e235f07764952314", "a59d58ee85b11f337b54933e8d758b2356fcdcc493248e004c9c5e5d11eedbe4", "a6e35d28900cf87bcc11e6ca9e474db0099b78f0be0a41d95bef02d49101b5b2", "b4df7ca9c01018a51e43937eaa41f2f5dce17a6382fda0086403bcb1f5c2cf8e", "bbd5a6bffd3ba8bfe75b16b5e28af15265538e8be011b0b9fddc7d86a453fd4a", "d870f399fcd58a1889e93008762a3b9a27cf7ea512818fc6e689f59495648355", "e9404e2e19e901121c3c5c6cffd5a8ae0d1d67919c970e3b3262231175713068"]
+ordereddict = ["1c35b4ac206cef2d24816c89f89cf289dd3d38cf7c449bb3fab7bf6d43f01b1f"]
+pathlib2 = ["8eb170f8d0d61825e09a95b38be068299ddeda82f35e96c3301a8a5e7604cb83", "d1aa2a11ba7b8f7b21ab852b1fb5afb277e1bb99d5dfc663380b5015c0d80c5a"]
+pbr = ["1b8be50d938c9bb75d0eaf7eda111eec1bf6dc88a62a6412e33bf077457e0f45", "b486975c0cafb6beeb50ca0e17ba047647f229087bd74e37f4a7e2cac17d2caa"]
+pep8 = ["b22cfae5db09833bb9bd7c8463b53e1a9c9b39f12e304a8d0bba729c501827ee", "fe249b52e20498e59e0b5c5256aa52ee99fc295b26ec9eaa85776ffdb9fe6374"]
+pluggy = ["6e3836e39f4d36ae72840833db137f7b7d35105079aee6ec4a62d9f80d594dd1", "95eb8364a4708392bae89035f45341871286a333f749c3141c20573d2b3876e1"]
+py = ["3fd59af7435864e1a243790d322d763925431213b6b8529c6ca71081ace3bbf7", "e31fb2767eb657cbde86c454f02e99cb846d3cd9d61b318525140214fdc0e98e"]
+pycares = ["0e81c971236bb0767354f1456e67ab6ae305f248565ce77cd413a311f9572bf5", "11c0ff3ccdb5a838cbd59a4e59df35d31355a80a61393bca786ca3b44569ba10", "170d62bd300999227e64da4fa85459728cc96e62e44780bbc86a915fdae01f78", "36f4c03df57c41a87eb3d642201684eb5a8bc194f4bafaa9f60ee6dc0aef8e40", "371ce688776da984c4105c8ca760cc60944b9b49ccf8335c71dc7669335e6173", "3a2234516f7db495083d8bba0ccdaabae587e62cfcd1b8154d5d0b09d3a48dfc", "3f288586592c697109b2b06e3988b7e17d9765887b5fc367010ee8500cbddc86", "40134cee03c8bbfbc644d4c0bc81796e12dd012a5257fb146c5a5417812ee5f7", "722f5d2c5f78d47b13b0112f6daff43ce4e08e8152319524d14f1f917cc5125e", "7b18fab0ed534a898552df91bc804bd62bb3a2646c11e054baca14d23663e1d6", "8a39d03bd99ea191f86b990ef67ecce878d6bf6518c5cde9173fb34fb36beb5e", "8ea263de8bf1a30b0d87150b4aa0e3203cf93bc1723ea3e7408a7d25e1299217", "943e2dc67ff45ab4c81d628c959837d01561d7e185080ab7a276b8ca67573fb5", "9d56a54c93e64b30c0d31f394d9890f175edec029cd846221728f99263cdee82", "b95b339c11d824f0bb789d31b91c8534916fcbdce248cccce216fa2630bb8a90", "bbfd9aba1e172cd2ab7b7142d49b28cf44d6451c4a66a870aff1dc3cb84849c7", "d8637bcc2f901aa61ec1d754abc862f9f145cb0346a0249360df4c159377018e", "e2446577eeea79d2179c9469d9d4ce3ab8a07d7985465c3cb91e7d74abc329b6", "e72fa163f37ae3b09f143cc6690a36f012d13e905d142e1beed4ec0e593ff657", "f32b7c63094749fbc0c1106c9a785666ec8afd49ecfe7002a30bb7c42e62b47c", "f50be4dd53f009cfb4b98c3c6b240e18ff9b17e3f1c320bd594bb83eddabfcb2"]
+pyflakes = ["9a7662ec724d0120012f6e29d6248ae3727d821bba522a0e6b356eff19126a49", "f661252913bc1dbe7fcfcbf0af0db3f42ab65aabd1a6ca68fe5d466bace94dae"]
+pytest = ["86a8dbf407e437351cef4dba46736e9c5a6e3c3ac71b2e942209748e76ff2086", "e74466e97ac14582a8188ff4c53e6cc3810315f342f6096899332ae864c1d432"]
+pytest-asyncio = ["a962e8e1b6ec28648c8fe214edab4e16bacdb37b52df26eb9d63050af309b2a9", "fbd92c067c16111174a1286bfb253660f1e564e5146b39eeed1133315cf2c2cf"]
+pytest-cache = ["be7468edd4d3d83f1e844959fd6e3fd28e77a481440a7118d430130ea31b07a9"]
+pytest-flakes = ["341964bf5760ebbdde9619f68a17d5632c674c3f6903ef66daa0a4f540b3d143", "daaf319250eeefa8cb13b0ba78ffdda67926c4b6446a9e14f946b86d1ba6af23"]
+pytest-mock = ["53801e621223d34724926a5c98bd90e8e417ce35264365d39d6c896388dcc928", "d89a8209d722b8307b5e351496830d5cc5e192336003a485443ae9adeb7dd4c0"]
+pytest-pep8 = ["032ef7e5fa3ac30f4458c73e05bb67b0f036a8a5cb418a534b3170f89f120318"]
+scandir = ["01babbf0fea42a135f6e24747cac63225399d97a67a9a7eedc1f0510b63122db", "0f0059d907817cd3c07f1b658611aabd1af0a4bdc4bb7b211dfd8962d5bd46ba", "11e3bd756b13db4baca364985575eeef4781ce35ce66e2324811091b39b97cdb", "49345923704d611458335872925802620fcf895e1c67074dd8ea715e579f2581", "7f94d5967d61d1b5e415840b3a8995cb00a90893b9628451745e57a3749546d6", "8231e327a3a1c090b4f09ba40cc0b75a85939812d0e8f4c83acd745df3ed6c23", "8d5011d3a99042c4d90e8adda0052d4475aae3d57bb927012267a6c59186d870", "9f703e6b8eb53211d39c0f10e5c02f86e9a989fd44913b5c992259312d9bd59d", "b009e15a3d73376a84f8d8fad9b5ab6d9f96cb7606bdb867a4c882f10508e57e", "b0e0b4e6de8f8aae41a9fb4834127ee125668c363a79c62eb9f9c77de58e7b71", "f70d557a271ee9973087dc704daea205c95f021ee149f1605592bb0b1571ad78"]
+six = ["70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9", "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"]
+trollius = ["b35b9a9079c3c06a04cedf27dd833982b5d58401722da63d2c7c6384063a6924"]
+yarl = ["2556b779125621b311844a072e0ed367e8409a18fa12cbd68eb1258d187820f9", "4aec0769f1799a9d4496827292c02a7b1f75c0bab56ab2b60dd94ebb57cbd5ee", "55369d95afaacf2fa6b49c84d18b51f1704a6560c432a0f9a1aeb23f7b971308", "6c098b85442c8fe3303e708bbb775afd0f6b29f77612e8892627bcab4b939357", "9182cd6f93412d32e009020a44d6d170d2093646464a88aeec2aef50592f8c78", "c8cbc21bbfa1dd7d5386d48cc814fe3d35b80f60299cdde9279046f399c3b0d8", "db6f70a4b09cde813a4807843abaaa60f3b15fb4a2a06f9ae9c311472662daa1", "f17495e6fe3d377e3faac68121caef6f974fcb9e046bc075bcff40d8e5cc69a4", "f85900b9cca0c67767bb61b2b9bd53208aaa7373dae633dbe25d179b4bf38aa7"]
